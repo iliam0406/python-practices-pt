@@ -49,6 +49,19 @@ else:
     pass
 
 
+if a > b and a > c:
+    if a > b and a > c:
+        pass
+    elif b > c:
+        pass
+    else:
+        pass
+
+elif b > c:
+    pass
+else:
+    pass
+
 # range(start, stop, step) start=0, step=1
 for x in range(1, 11, 2):
     print(x) # 1, 3, 5, 7, 9
@@ -70,6 +83,9 @@ while i < 10:
 
 def prueba(a, b=5):
     pass
+
+    def prueba2():
+        pass
 
 
 prueba = lambda a=5, b=5: a + b

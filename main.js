@@ -79,4 +79,5 @@ function prueba(a, b=5){
 const prueba = function(a, b=5){
     return a + b
 }
+
 const prueba = (a, b) => a + b;
