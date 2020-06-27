@@ -91,3 +91,20 @@ def prueba(a, b=5):
 prueba = lambda a=5, b=5: a + b
 
 prueba()
+
+nombre = input("Ingresa tu nombre: ")
+
+print(nombre)
+
+edad = 38 
+salario = 3.5
+soltero = "False"
+
+#str(edad)
+#int(edad)
+float(salario)
+bool(soltero)
+
+print("tu edad es " + str(edad))
+print("tu edad es ", edad)
+
